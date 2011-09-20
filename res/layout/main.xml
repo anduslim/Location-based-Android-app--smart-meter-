@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+
+
+<AbsoluteLayout android:id="@+id/AbsoluteLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<ImageView android:id="@+id/ImageView01" android:src="@drawable/meterbg" android:scaleType="fitXY" android:layout_height="fill_parent" android:layout_width="fill_parent">
+	</ImageView>
+	<LinearLayout android:id="@+id/LinearLayout03" android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical" android:gravity="center">
+		<LinearLayout android:id="@+id/LinearLayout01" android:layout_width="wrap_content" android:layout_height="wrap_content">
+			<Button android:layout_width="200px" android:layout_height="wrap_content" android:gravity="center_vertical|center_horizontal" android:layout_gravity="center_vertical|center_horizontal|center" android:id="@+id/readMeterButton" android:text="Read Meters">
+			</Button>
+		</LinearLayout>
+		
+		<LinearLayout android:id="@+id/LinearLayout02" android:layout_width="wrap_content" android:layout_height="wrap_content"><Button android:layout_width="200px" android:layout_height="wrap_content" android:id="@+id/manageLoadButton" android:text="Manage Loads">
+			</Button>
+		</LinearLayout>
+		
+		<LinearLayout android:id="@+id/LinearLayout04" android:layout_width="wrap_content" android:layout_height="wrap_content"><Button android:layout_width="200px" android:layout_height="wrap_content" android:id="@+id/reportButton" android:text="Reports"></Button>
+		</LinearLayout><TextView android:text="" android:id="@+id/tv_statusText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#000000"></TextView>
+	
+</LinearLayout>
+	
+</AbsoluteLayout>
+</LinearLayout>

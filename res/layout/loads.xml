@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_height="fill_parent" android:layout_width="fill_parent" android:background="@drawable/underconstruction">
+<TextView android:layout_height="fill_parent" android:layout_width="fill_parent" android:gravity="center_horizontal|center_vertical" android:id="@+id/tv_updating" android:text="To be updated ..." android:textSize="30dp" android:textColor="#123445" android:textColorHighlight="#AA0000"></TextView>
+</LinearLayout>

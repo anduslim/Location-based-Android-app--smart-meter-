@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent" android:padding="10dip" android:background="@drawable/bg" android:orientation="vertical">
+
+
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_marginBottom="30dp">
+<TextView android:textStyle="bold" android:text="Smart Metering" android:id="@+id/labelTextView" android:gravity="center_horizontal" android:layout_height="fill_parent" android:layout_width="fill_parent" android:textSize="25sp" android:textColor="#123456"></TextView>
+</LinearLayout>
+
+<LinearLayout android:id="@+id/LinearLayout02" android:layout_width="wrap_content" android:layout_height="fill_parent"><RelativeLayout android:id="@+id/RelativeLayout01" android:layout_width="wrap_content" android:layout_height="fill_parent"><TextView android:id="@+id/lblUsername" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textSize="20sp" android:text="Username:" android:textStyle="bold" android:layout_marginBottom="8dip" /><EditText android:id="@+id/txtUsername" android:layout_below="@id/lblUsername" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textSize="12sp" android:layout_marginBottom="8dip" /><TextView android:id="@+id/lblPassword" android:layout_below="@id/txtUsername" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textSize="20sp" android:text="Password:" android:textStyle="bold" android:layout_marginBottom="8dip" /><EditText android:id="@+id/txtPassword" android:layout_below="@id/lblPassword" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textSize="12sp" android:layout_marginBottom="8dip" android:password="true" /><Button android:id="@+id/btnLogin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Login" android:layout_above="@+id/tv_error"/><TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="7pt" android:textColor="#AA0000" android:layout_alignParentBottom="true" android:id="@+id/tv_error"></TextView>
+</RelativeLayout>
+</LinearLayout>
+
+      
+ 
+</LinearLayout>

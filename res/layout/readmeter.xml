@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent" android:layout_height="fill_parent">
+  
+	<AbsoluteLayout android:id="@+id/AbsoluteLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent"><com.google.android.maps.MapView android:id="@+id/myMapView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:enabled="true" android:clickable="true" android:apiKey="0ptQht_dk1-IbMKGWOaJ4PoRpq2x0wP3bisAIxw" /><TextView android:id="@+id/tv_lat" android:layout_height="fill_parent" android:layout_width="fill_parent" android:gravity="left" android:textSize="7pt"></TextView><TextView android:id="@+id/tv_long" android:gravity="right" android:layout_height="fill_parent" android:layout_width="fill_parent" android:textSize="7pt"></TextView></AbsoluteLayout>
+
+	
+
+
+
+</LinearLayout>

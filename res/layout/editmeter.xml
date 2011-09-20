@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="#FFE87C">
+
+
+	
+	<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Meter Reading:" android:textColor="#FF000000" android:textSize="7pt" android:id="@+id/tv_meterReading"></TextView><LinearLayout android:id="@+id/LinearLayout01"
+		android:layout_height="wrap_content" android:layout_width="fill_parent">
+		<EditText android:layout_height="wrap_content" android:layout_weight="1" android:layout_width="wrap_content"
+			android:id="@+id/et_edit_reading" android:hint="Reading"></EditText>
+
+	</LinearLayout>
+
+
+	<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/tv_edit_remarks" android:text="Remarks:" android:textColor="#FF000000" android:textSize="7pt"></TextView><EditText android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:layout_weight="1"
+		android:gravity="top" android:id="@+id/et_edit_remarks" android:hint="Remarks"></EditText>
+	<Button android:layout_height="wrap_content" android:text="Confirm" android:id="@+id/bt_edit_button" android:layout_width="fill_parent"></Button>
+
+
+
+
+</LinearLayout>
